@@ -1,0 +1,16 @@
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.csproj.AssemblyReference.cache
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.AssemblyInfoInputs.cache
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.AssemblyInfo.cs
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.csproj.CoreCompileInputs.cache
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\NTShopSolution.Data.deps.json
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\NTShopSolution.Data.runtimeconfig.json
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\NTShopSolution.Data.runtimeconfig.dev.json
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\NTShopSolution.Data.dll
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\ref\NTShopSolution.Data.dll
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\NTShopSolution.Data.pdb
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.dll
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\ref\NTShopSolution.Data.dll
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.pdb
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\obj\Debug\net5.0\NTShopSolution.Data.genruntimeconfig.cache
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Data\bin\Debug\net5.0\appsettings.json
