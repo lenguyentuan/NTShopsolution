@@ -29,5 +29,6 @@ namespace NTShopSolution.Data.Models
         public IList<ProductTranslation> ProductTranslations { set; get; }
 
         public IList<ProductInCart> ProductInCarts { set; get; }
+        public IList<ProductImage> ProductImages { set; get; }
     }
 }
