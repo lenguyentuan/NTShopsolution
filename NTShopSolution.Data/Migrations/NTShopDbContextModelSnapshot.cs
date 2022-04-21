@@ -497,6 +497,13 @@ namespace NTShopSolution.Data.Migrations
                             IsShowOnHome = true,
                             SortOrder = 1,
                             Status = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            IsShowOnHome = true,
+                            SortOrder = 2,
+                            Status = 1
                         });
                 });
 
@@ -556,6 +563,26 @@ namespace NTShopSolution.Data.Migrations
                             CategoryId = 1,
                             LanguageId = "en-US",
                             Name = "men T-shirt",
+                            SeoAlias = "abc",
+                            SeoDescription = "abc",
+                            SeoTitle = "abc"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            LanguageId = "vi-VN",
+                            Name = "Ao Nu",
+                            SeoAlias = "abc",
+                            SeoDescription = "abc",
+                            SeoTitle = "abc"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 2,
+                            LanguageId = "en-US",
+                            Name = "women T-shirt",
                             SeoAlias = "abc",
                             SeoDescription = "abc",
                             SeoTitle = "abc"
@@ -713,9 +740,6 @@ namespace NTShopSolution.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("SeoAlias")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("Stock")
                         .HasColumnType("int");
 
@@ -727,6 +751,17 @@ namespace NTShopSolution.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateCreated = new DateTime(2022, 4, 21, 14, 50, 48, 824, DateTimeKind.Local).AddTicks(7831),
+                            OriginalPrice = 10000m,
+                            Price = 20000m,
+                            Stock = 0,
+                            ViewCount = 0
+                        });
                 });
 
             modelBuilder.Entity("NTShopSolution.Data.Models.ProductImage", b =>
@@ -797,6 +832,13 @@ namespace NTShopSolution.Data.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductInCategories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            ProductId = 1
+                        });
                 });
 
             modelBuilder.Entity("NTShopSolution.Data.Models.ProductTranslation", b =>
@@ -847,6 +889,30 @@ namespace NTShopSolution.Data.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductTranslations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Details = "abc",
+                            LanguageId = "vi-VN",
+                            Name = "Ao Nam",
+                            ProductId = 1,
+                            SeoAlias = "abc",
+                            SeoDescription = "abc",
+                            SeoTitle = "abc"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Details = "abc",
+                            LanguageId = "en-US",
+                            Name = "men T-shirt",
+                            ProductId = 1,
+                            SeoAlias = "abc",
+                            SeoDescription = "abc",
+                            SeoTitle = "abc"
+                        });
                 });
 
             modelBuilder.Entity("NTShopSolution.Data.Models.Promotion", b =>

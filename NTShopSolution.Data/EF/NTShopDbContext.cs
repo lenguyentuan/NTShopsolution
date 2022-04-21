@@ -53,5 +53,21 @@ namespace NTShopSolution.Data.EF
 
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Cart> carts { set; get; }
+        public DbSet<Category> categories { set; get; }
+        public DbSet<CategoryTranslation> categoryTranslations { set; get; }
+        public DbSet<Contact> contacts { set; get; }
+        public DbSet<Language> languages { set; get; }
+        public DbSet<Order> orders { set; get; }
+        public DbSet<OrderDetail> orderDetails { set; get; }
+        public DbSet<Product> products { set; get; }
+        public DbSet<ProductInCategory> productInCategories { set; get; }
+        public DbSet<ProductTranslation> productTranslations { set; get; }
+        public DbSet<Promotion> promotions { set; get; }
+        public DbSet<Transaction> transactions { set; get; }
+        public DbSet<ProductInCart> productInCarts { set; get; }
+        public DbSet<ProductImage> productImages { set; get; }
+
     }
 }
