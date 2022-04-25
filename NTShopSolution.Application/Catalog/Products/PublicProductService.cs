@@ -19,21 +19,24 @@ namespace NTShopSolution.Application.Catalog.Products
             _context = context;
         }
 
-        public async Task<PagedResult<ProductViewModel>> GetAllByCategoryId(GetManageProductPagingRequest request)
+        public async Task<PagedResult<ProductViewModel>> GetAllByCategoryId(string languageId, GetPublicProductPagingRequest request)
         {
-
             // 1. Select join
             var query = from p in _context.Set<Product>()
                         join pt in _context.Set<ProductTranslation>() on p.Id equals pt.ProductId
                         join pic in _context.Set<ProductInCategory>() on p.Id equals pic.ProductId
                         join c in _context.Set<Category>() on pic.CategoryId equals c.Id
+                        where pt.LanguageId == languageId
                         select new { p, pt, pic };
             // 2. filter
 
-            if (request.CategoryId.HasValue && request.CategoryId.Value > 0)
+            if (!string.IsNullOrEmpty(request.Keywork)) query = query.Where(x => x.pt.Name.Contains(request.Keywork));
+
+            if (request.CategoryIds.Count > 0)
             {
-                query = query.Where(p => p.pic.CategoryId == request.CategoryId);
+                query = query.Where(p => request.CategoryIds.Contains(p.pic.CategoryId));
             }
+
             //3. paging
             int totalRow = await query.CountAsync();
 
@@ -53,7 +56,6 @@ namespace NTShopSolution.Application.Catalog.Products
                     SeoTitle = x.pt.SeoTitle,
                     Stock = x.p.Stock,
                     ViewCount = x.p.ViewCount,
-
                 }).ToListAsync();
 
             //4 Select and projection

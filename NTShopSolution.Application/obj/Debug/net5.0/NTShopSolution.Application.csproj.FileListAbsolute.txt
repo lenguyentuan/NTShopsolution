@@ -20,3 +20,4 @@ F:\Company\Training\Project\NTShopSolution\NTShopSolution.Application\bin\Debug\
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.Application\bin\Debug\net5.0\NTShopSolution.ViewModels.pdb
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.Application\bin\Debug\net5.0\NTShopSolution.ActivityLog.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.Application\bin\Debug\net5.0\NTShopSolution.ActivityLog.pdb
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Application\bin\Debug\net5.0\NTShopSolution.Utilities.xml

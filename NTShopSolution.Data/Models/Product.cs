@@ -20,8 +20,6 @@ namespace NTShopSolution.Data.Models
 
         public DateTime DateCreated { set; get; }
 
-        public string SeoAlias { set; get; }
-
         public IList<OrderDetail> OrderDetails { set; get; }
 
         public IList<ProductInCategory> ProductInCategories { set; get; }

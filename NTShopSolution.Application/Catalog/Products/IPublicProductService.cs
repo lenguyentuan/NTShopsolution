@@ -6,6 +6,6 @@ namespace NTShopSolution.Application.Catalog.Products.Dtos
 {
     public interface IPublicProductService
     {
-        public Task<PagedResult<ProductViewModel>> GetAllByCategoryId(GetManageProductPagingRequest request);
+        public Task<PagedResult<ProductViewModel>> GetAllByCategoryId(string languageId, GetPublicProductPagingRequest request);
     }
 }

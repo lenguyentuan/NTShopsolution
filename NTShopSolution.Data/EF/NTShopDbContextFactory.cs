@@ -21,7 +21,7 @@ namespace NTShopSolution.Data.EF
 
             var connectionString = configuration.GetConnectionString("NTShopSolutionDb");
             var optionsBuilder = new DbContextOptionsBuilder<NTShopDbContext>();
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseSqlServer(connectionString,b=>b.MigrationsAssembly("NTShopSolution.Data"));
 
             return new NTShopDbContext(optionsBuilder.Options);
         }
