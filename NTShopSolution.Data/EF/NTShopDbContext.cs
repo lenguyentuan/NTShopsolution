@@ -5,10 +5,6 @@ using NTShopSolution.Data.Configuration;
 using NTShopSolution.Data.Extensions;
 using NTShopSolution.Data.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NTShopSolution.Data.EF
 {
@@ -16,7 +12,6 @@ namespace NTShopSolution.Data.EF
     {
         public NTShopDbContext(DbContextOptions options) : base(options)
         {
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -42,14 +37,12 @@ namespace NTShopSolution.Data.EF
             modelBuilder.ApplyConfiguration(new AppRoleConfiguration());
             //Identity other model:
             modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("AppUserClaims");
-            modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("AppUserRoles").HasKey(x=>new {x.RoleId,x.UserId });
-            modelBuilder.Entity<IdentityUserLogin<Guid>>().ToTable("AppUserLogins").HasKey(x=>x.UserId);
+            modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("AppUserRoles").HasKey(x => new { x.RoleId, x.UserId });
+            modelBuilder.Entity<IdentityUserLogin<Guid>>().ToTable("AppUserLogins").HasKey(x => x.UserId);
             modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("AppRoleClaims");
-            modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens").HasKey(x=>x.UserId);
+            modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens").HasKey(x => x.UserId);
 
             modelBuilder.Seed();
-
-
 
             base.OnModelCreating(modelBuilder);
         }
@@ -68,6 +61,5 @@ namespace NTShopSolution.Data.EF
         public DbSet<Transaction> transactions { set; get; }
         public DbSet<ProductInCart> productInCarts { set; get; }
         public DbSet<ProductImage> productImages { set; get; }
-
     }
 }

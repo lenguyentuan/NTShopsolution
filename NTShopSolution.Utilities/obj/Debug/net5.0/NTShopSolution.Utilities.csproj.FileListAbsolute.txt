@@ -10,3 +10,4 @@ F:\Company\Training\Project\NTShopSolution\NTShopSolution.Utilities\obj\Debug\ne
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.Utilities\obj\Debug\net5.0\NTShopSolution.Utilities.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.Utilities\obj\Debug\net5.0\ref\NTShopSolution.Utilities.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.Utilities\obj\Debug\net5.0\NTShopSolution.Utilities.pdb
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.Utilities\bin\Debug\net5.0\NTShopSolution.Utilities.xml

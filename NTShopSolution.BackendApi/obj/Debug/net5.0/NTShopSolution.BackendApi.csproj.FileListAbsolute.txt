@@ -79,3 +79,6 @@ F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\bin\Debug\n
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\obj\Debug\net5.0\NTShopSolution.BackendApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\bin\Debug\net5.0\NTShopSolution.Utilities.xml
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\bin\Debug\net5.0\Humanizer.dll
+F:\Company\Training\Project\NTShopSolution\NTShopSolution.BackendApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

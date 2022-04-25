@@ -15,7 +15,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTShopSolution.ViewModels",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTShopSolution.ActivityLog", "NTShopSolution.ActivityLog\NTShopSolution.ActivityLog.csproj", "{52F61383-BB53-4FD2-B3D6-27541A58CEE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTShopSolution.BackendApi", "NTShopSolution.BackendApi\NTShopSolution.BackendApi.csproj", "{8938E92D-DA70-45FB-B4B9-984625019CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTShopSolution.BackendApi", "NTShopSolution.BackendApi\NTShopSolution.BackendApi.csproj", "{8938E92D-DA70-45FB-B4B9-984625019CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Infrastructure", "1. Infrastructure", "{6FCCEAE5-F3B2-4108-83C4-9F33F81D0C16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{D232E97F-0E7E-477A-ABF4-8F171C607700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Hosts", "3. Hosts", "{B5B0E57E-05EC-415F-AA00-C4CBE6CE26DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{DC009C53-977B-4BB1-B403-64058FA3E984}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +65,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C08D9147-8235-465D-9B43-A9DBA002C995} = {B5B0E57E-05EC-415F-AA00-C4CBE6CE26DA}
+		{FF388BE5-CBBD-4BAD-9880-D16439F0EBB5} = {D232E97F-0E7E-477A-ABF4-8F171C607700}
+		{261241A6-245D-45A0-9B17-C0800C933E67} = {D232E97F-0E7E-477A-ABF4-8F171C607700}
+		{B824BACA-459E-4CE7-82FB-A1DD757BB50D} = {6FCCEAE5-F3B2-4108-83C4-9F33F81D0C16}
+		{19E44695-9757-4446-B859-6058C057DF2E} = {6FCCEAE5-F3B2-4108-83C4-9F33F81D0C16}
+		{52F61383-BB53-4FD2-B3D6-27541A58CEE4} = {6FCCEAE5-F3B2-4108-83C4-9F33F81D0C16}
+		{8938E92D-DA70-45FB-B4B9-984625019CCF} = {B5B0E57E-05EC-415F-AA00-C4CBE6CE26DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C609B63C-7A4D-438C-8122-802E1841F6B3}
