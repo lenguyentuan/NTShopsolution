@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {}
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {}
   },
   "projects": {
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
+        "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
         "projectName": "NTShopSolution.Data",
-        "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\obj\\",
+        "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
+        "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

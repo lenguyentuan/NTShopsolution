@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admins\\.nuget\\packages\\": {}
+    "C:\\Users\\BE\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
+      "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
       "projectName": "NTShopSolution.Utilities",
-      "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
-      "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-      "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\obj\\",
+      "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
+      "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

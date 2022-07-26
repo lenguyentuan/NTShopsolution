@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AqlBlBHsJM7c/aw3Nq+dyuDmQbM5KTX/90e5QIWyhY29eH6Zf8+uxZOF0V6peHFFqif0Q4BWX6x2Mfmn/dfrJg==",
+  "dgSpecHash": "Kxw8yir1ODFwH77Wj8NknghXRsRwlagFDzSFqcxfCs4X7qb8aFITamFZHmGY8xByGSZJqwyEBYSt4OnkPFV8Lw==",
   "success": true,
-  "projectFilePath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj",
+  "projectFilePath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admins\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.16\\microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
-    "C:\\Users\\Admins\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\Admins\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+    "C:\\Users\\BE\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.16\\microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
+    "C:\\Users\\BE\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\BE\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

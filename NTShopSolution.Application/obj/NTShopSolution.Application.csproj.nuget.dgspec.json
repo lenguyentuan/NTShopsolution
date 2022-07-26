@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj": {}
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj": {}
   },
   "projects": {
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj": {
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj",
+        "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj",
         "projectName": "NTShopSolution.ActivityLog",
-        "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ActivityLog\\obj\\",
+        "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj",
+        "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ActivityLog\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,21 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj": {
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj",
+        "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj",
         "projectName": "NTShopSolution.Application",
-        "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Application\\obj\\",
+        "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Application\\NTShopSolution.Application.csproj",
+        "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,17 +110,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj": {
-                "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj"
+              "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj": {
+                "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ActivityLog\\NTShopSolution.ActivityLog.csproj"
               },
-              "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {
-                "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj"
+              "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {
+                "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj"
               },
-              "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj": {
-                "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj"
+              "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj": {
+                "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj"
               },
-              "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj": {
-                "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj"
+              "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj": {
+                "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj"
               }
             }
           }
@@ -152,21 +158,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
+        "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
         "projectName": "NTShopSolution.Data",
-        "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Data\\obj\\",
+        "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\NTShopSolution.Data.csproj",
+        "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -248,21 +257,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj": {
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
+        "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
         "projectName": "NTShopSolution.Utilities",
-        "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.Utilities\\obj\\",
+        "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\NTShopSolution.Utilities.csproj",
+        "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.Utilities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -302,21 +314,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj": {
+    "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj",
+        "projectUniqueName": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj",
         "projectName": "NTShopSolution.ViewModels",
-        "projectPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "F:\\Company\\Training\\Project\\NTShopSolution\\NTShopSolution.ViewModels\\obj\\",
+        "projectPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\NTShopSolution.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\BE\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Platform\\.NET\\NTShopsolution\\NTShopSolution.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -362,7 +377,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

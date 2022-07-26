@@ -10,3 +10,15 @@ F:\Company\Training\Project\NTShopSolution\NTShopSolution.ViewModels\obj\Debug\n
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.ViewModels\obj\Debug\net5.0\ref\NTShopSolution.ViewModels.dll
 F:\Company\Training\Project\NTShopSolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.pdb
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\bin\Debug\net5.0\NTShopSolution.ViewModels.deps.json
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\bin\Debug\net5.0\NTShopSolution.ViewModels.dll
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\bin\Debug\net5.0\ref\NTShopSolution.ViewModels.dll
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\bin\Debug\net5.0\NTShopSolution.ViewModels.pdb
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.csproj.AssemblyReference.cache
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.AssemblyInfoInputs.cache
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.AssemblyInfo.cs
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.csproj.CoreCompileInputs.cache
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.dll
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\ref\NTShopSolution.ViewModels.dll
+D:\Study\Platform\.NET\NTShopsolution\NTShopSolution.ViewModels\obj\Debug\net5.0\NTShopSolution.ViewModels.pdb
